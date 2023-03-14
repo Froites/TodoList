@@ -1,0 +1,19 @@
+.header {
+    height: 12.5rem;
+    background-color: var(--gray-700);
+    display: flex;
+    justify-content: center;
+}
+
+.headerTitle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header h1 {
+    font-size: 2.5rem;
+    background: -webkit-linear-gradient(360deg, var(--blue) 50%, var(--purple-dark) 50%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}

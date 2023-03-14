@@ -1,0 +1,61 @@
+.taskList {
+    display: flex;
+    flex-direction: column;
+    width: 46rem;
+    justify-content: space-between;
+}
+
+.headerList {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.title {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: var(--blue);
+    font-size: 0.875rem;
+    font-weight: bold;
+    line-height: 1.6;
+    gap: 8px;
+}
+
+.completed {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: var(--purple);
+    font-size: 0.875rem;
+    font-weight: bold;
+    line-height: 1.6;
+    gap: 8px;
+}
+
+.taskListContent {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1.5rem;
+    width: 46rem;
+
+}
+
+.taskItem {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 46rem;
+    height: 4.5rem;
+    background: var(--gray-500);
+    border: 1px solid var(--gray-400);
+    border-radius: 8px;
+    margin-bottom: 0.75rem;
+    padding: 1rem;
+}
+
+.taskItem p {
+    font-size: 0.875rem;
+    font-weight: 400;
+    color: var(--gray-100);
+}
